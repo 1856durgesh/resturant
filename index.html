@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./image/favicon.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home/The Coffe</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+
+      <div class="headerbar">
+        <div class="account">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-house-chimney"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+              </li>
+            </a>
+            <div class="search" id="searchinput1">
+             <input type="search"> 
+             <i class="fa-solid fa-magnifying-glass srchicon"></i>
+            </div>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-user" id="user-mb"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="about.html">
+              <li>About Us</li>
+            </a>
+            <a href="food-menu.html">
+              <li>Food Menu</li>
+            </a>
+            <a href="#" onclick="openBookingForm()">
+              <li>Book a Table</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark" id="hdcross"></i>
+      </div>
+      <div class="nav">
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About Us</li>
+          </a>
+          <a href="food-menu.html">
+            <li>Food Menu</li>
+          </a>
+          <a href="#" onclick="openBookingForm()">
+            <li>Book a Table</li>
+          </a>
+        </ul>
+      </div>
+      <div class="account">
+        <ul>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-house-chimney"></i>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+            </li>
+          </a>
+          <div class="search" id="searchinput2">
+            <input type="search">
+            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+          </div>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-user" id="user-lap"></i>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>  
+
+  <div class="home">
+    <div class="main_slide">
+      <div>
+        <h1>Enjoy <span>Your Delicious Food and Drink</span> in Your Robust Life....</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore, laboriosam eius necessitatibus quisquam earum cum sit perferendis, cupiditate, debitis unde cumque odio consequatur impedit exercitationem iure velit? Excepturi explicabo architecto dolores quos asperiores, repellendus libero. Eius voluptatibus commodi expedita odio, quisquam nam consequuntur amet autem voluptates. Veritatis, ipsum harum.</p>
+
+        <button class="red_btn">Visit Now 🡪</button>
+      </div>
+      <div class="main_slide_img">
+        <img src="./image/home.jpeg" alt="">
+      </div>
+    </div>
+    <div class="food-item">
+      <div class="item">
+        <div>
+          <img src="./image/food-item1.png" alt="food-item">
+        </div>
+        <h3>Name1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore labore quae commodi modi ratione optio repellat praesentium consectetur cum!</p>
+        <button class="btn">See Menu</button>
+      </div>
+      <div class="item">
+        <div>
+          <img src="./image/food-item2.jpeg" alt="food-item">
+        </div>
+        <h3>Name2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore labore quae commodi modi ratione optio repellat praesentium consectetur cum!</p>
+        <button class="btn">See Menu</button>
+      </div>
+      <div class="item">
+        <div>
+          <img src="./image/food-item3.png" alt="food-item">
+        </div>
+        <h3>Name3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore labore quae commodi modi ratione optio repellat praesentium consectetur cum!</p>
+        <button class="btn">See Menu</button>
+      </div>
+      <div class="item">
+        <div>
+          <img src="./image/food-item4.jpeg" alt="food-item">
+        </div>
+        <h3>Name4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore labore quae commodi modi ratione optio repellat praesentium consectetur cum!</p>
+        <button class="btn">See Menu</button>
+      </div>
+    </div>
+    <div class="main_slide2">
+      <div class="fav-head">
+        <h3>Popular Items </h3>
+        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Unde, dolore.</p>
+      </div>
+      <div class="fav-food">
+        <div class="item">
+          <div>
+            <img src="./image/fav-food1.jpeg" alt="">
+          </div>
+          <h3>Food Name1</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus! Laudantium voluptas non id recusandae nihil quod, commodi ut blanditiis?</p>
+          <p class="fav-price">$10</p>
+        </div>
+        <div class="item">
+          <div>
+            <img src="./image/fav-food2.jpeg" alt="">
+          </div>
+          <h3>Food Name2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus! Laudantium voluptas non id recusandae nihil quod, commodi ut blanditiis?</p>
+          <p class="fav-price">$5</p>
+        </div>
+        <div class="item">
+          <div>
+            <img src="./image/fav-food3.jpeg" alt="">
+          </div>
+          <h3>Food Name3</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus! Laudantium voluptas non id recusandae nihil quod, commodi ut blanditiis?</p>
+          <p class="fav-price">$8</p>
+        </div>
+        <div class="item">
+          <div>
+            <img src="./image/fav-food4.jpeg" alt="">
+          </div>
+          <h3>Food Name4</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus! Laudantium voluptas non id recusandae nihil quod, commodi ut blanditiis?</p>
+          <p class="fav-price">$4</p>
+        </div>
+      </div>
+      <div class="dsgn"></div>
+    </div>
+<div class="our-achivement">
+    <div class="feedback-section">
+      <div class="feedback-heading">
+        <h4>Our Achievement</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nisi sunt recusandae ipsum quasi adipisci sapiente reiciendis laudantium modi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tempore provident quis quaerat tenetur dolor fugit, odio ex. Voluptas possimus exercitationem praesentium nihil recusandae officia quisquam modi consequatur eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia laudantium et atque sunt unde error, officiis corrupti ad molestiae, provident dolor? Ipsa corrupti magnam ad, placeat dolorum delectus consectetur.</p>
+      </div>
+      
+      <div class="positive-feedback">
+          <span class="like-symbol">&#x1F44D;</span> <p>85% positive feedback</p>
+      </div>
+
+      <div class="award-section">
+          <span class="award-symbol">&#x1F3C6;</span> <p>10 Best Awards</p>
+      </div>
+
+  </div>
+</div>
+  </div>
+
+
+<!--Booking a table form -->
+
+<div id="bookTableForm">
+  <div class="booking-form">
+      <h2>Book a Table</h2>
+      <form action="#" method="post" id="form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required><br><br>
+
+
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required><br><br>
+
+          <input type="submit" value="Book Now" class="btn-class">
+          <input type="submit" value="Cancle" onclick="closeBookingForm()" class="btn-class" > 
+      </form>
+  </div>
+</div>
+
+
+
+
+<footer>
+  <div class="footer">
+    <div class="footer-1">
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div>
+        <address>
+          <p>Email:durgeshyadav9246@gmail.com</p>
+          <p>Youtube:Durgesh_yadav</p>
+          <p>The Coffe,<br>My street,New Delhi <br>India</p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-2">
+      <img src="./image/logo2.png" alt="">
+      <h2>Powered by <em>Team Name</em></h2>
+    </div>
+  </div>
+</footer>
+  <script src="app.js"></script>
+</body>
+</html>

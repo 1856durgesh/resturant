@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="shortcut icon" href="./image/favicon.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Us/ The Coffe</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+
+      <div class="headerbar">
+        <div class="account">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-house-chimney"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+              </li>
+            </a>
+            <div class="search" id="searchinput1">
+             <input type="search"> 
+             <i class="fa-solid fa-magnifying-glass srchicon"></i>
+            </div>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-user" id="user-mb"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="about.html">
+              <li>About Us</li>
+            </a>
+            <a href="food-menu.html">
+              <li>Food Menu</li>
+            </a>
+            <a href="#" onclick="openBookingForm()">
+              <li>Book a Table</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark" id="hdcross"></i>
+      </div>
+      <div class="nav">
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About Us</li>
+          </a>
+          <a href="food-menu.html">
+            <li>Food Menu</li>
+          </a>
+          <a href="#" onclick="openBookingForm()">
+            <li>Book a Table</li>
+          </a>
+        </ul>
+      </div>
+      <div class="account">
+        <ul>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-house-chimney"></i>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+            </li>
+          </a>
+          <div class="search" id="searchinput2">
+            <input type="search">
+            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+          </div>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-user" id="user-lap"></i>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>  
+  
+<!--Booking a table form -->
+
+<div id="bookTableForm">
+  <div class="booking-form">
+      <h2>Book a Table</h2>
+      <form action="#" method="post" id="form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required><br><br>
+
+
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required><br><br>
+
+          <input type="submit" value="Book Now" class="btn-class">
+          <input type="submit" value="Cancle" onclick="closeBookingForm()" class="btn-class" > 
+      </form>
+  </div>
+</div>
+
+
+<!--Code of the about us page -->
+<div class="aboutUs-container">
+  <div class="content">
+    <div class="about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat cumque veritatis exercitationem, tempore nemo labore magnam quisquam modi similique necessitatibus hic eligendi optio dignissimos cum ea sequi deleniti quas!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo quo veritatis tempora illo, accusamus nam. Perferendis quas totam exercitationem, reprehenderit hic molestias voluptates sapiente tempore vitae quaerat adipisci officiis minus dolore nobis officia assumenda vero a! Nam veniam, et libero ab animi ipsam iure. Dolores iusto exercitationem reiciendis assumenda corporis beatae alias vero non accusamus recusandae odio, obcaecati atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit laboriosam necessitatibus similique ad sapiente odit consequatur assumenda. Accusamus ullam commodi quo ipsa. Maxime impedit id corrupti sunt similique ad modi corporis! Quidem officia modi quas esse accusantium? Atque repellendus eos fuga magni, sed temporibus. Necessitatibus aspernatur dolor cum consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, fugit rerum quod eaque necessitatibus consequatur eligendi rem. Et quo voluptates aut laborum, explicabo quos. Quis odit error unde, recusandae sapiente, autem perferendis possimus repudiandae porro quasi suscipit vitae quam tempore.
+      </p>
+    </div>
+    <div class="img">
+      <img src="./image/chef.jpeg" alt="Loading...">
+    </div>
+  </div>
+</div>
+
+
+<div class="Golden-Chef">
+  <div class="content">
+    <h2>Our Golden Chefs</h2>
+  </div>
+
+  <div class="chef">
+    <div class="chef-img">
+      <div>
+        <img src="./image/chef1.jpg" alt="">
+      </div>
+      <h3>Chef Name 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt neque quam! Praesentium, corrupti dolor!</p>
+    </div>
+
+    <div class="chef-img">
+      <div>
+        <img src="./image/chef2.avif" alt="">
+      </div>
+      <h3>Chef Name 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt neque quam! Praesentium, corrupti dolor!</p>
+    </div>
+
+    <div class="chef-img">
+      <div>
+        <img src="./image/chef3.jpg" alt="">
+      </div>
+      <h3>Chef Name 3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt neque quam! Praesentium, corrupti dolor!</p>
+    </div>
+
+    <div class="chef-img">
+      <div>
+        <img src="./image/chef4.jpg" alt="">
+      </div>
+      <h3>Chef Name 4</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt neque quam! Praesentium, corrupti dolor!</p>
+    </div>
+  </div>
+
+
+  <div class="our-story">
+    <h2>Our Story</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente impedit illo a dolor sunt eaque quam, aliquam aperiam ipsum suscipit perspiciatis fugit dolorum voluptate placeat deleniti laboriosam at totam unde consectetur illum! Vero fuga dolor illo doloremque rerum animi? Officiis doloribus accusamus amet ratione quidem est quo soluta aliquid. Exercitationem deserunt nemo eaque laborum fuga temporibus rem nisi explicabo totam. Mollitia sint amet placeat reprehenderit ipsum autem facere, sequi rem voluptates repudiandae eos consequatur. Eveniet assumenda atque eaque odio possimus aut consequuntur soluta natus. Mollitia dolorem, ex, neque voluptates itaque modi voluptatibus in facere dolorum perferendis debitis repellendus porro nihil suscipit id obcaecati aliquid quos error! Maxime itaque deleniti aperiam corrupti sit culpa molestiae natus, ipsa consequatur repellat exercitationem cupiditate repudiandae rerum voluptatem dolorem fuga porro, amet rem vel consectetur a voluptatum repellendus. Officiis ipsa illo quod temporibus labore? At quaerat voluptate enim, totam incidunt voluptates voluptatibus animi odit quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, repudiandae? Sapiente doloribus placeat sed quo, ea quisquam, corrupti soluta aspernatur enim nam illum itaque magnam esse eos unde accusantium. Sit, aperiam, voluptatem minima pariatur iure provident similique molestiae dolor dolore, ut </p>
+  </div>
+
+
+
+ 
+<footer>
+  <div class="footer">
+    <div class="footer-1">
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div>
+        <address>
+          <p>Email:durgeshyadav9246@gmail.com</p>
+          <p>Youtube:Durgesh_yadav</p>
+          <p>The Coffe,<br>My street,New Delhi <br>India</p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-2">
+      <img src="./image/logo2.png" alt="">
+      <h2>Powered by <em>Team Name</em></h2>
+    </div>
+  </div>
+</footer> 
+  <script src="app.js"></script>
+</body>
+</html>

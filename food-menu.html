@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="food-menu.css">
+  <link rel="shortcut icon" href="./image/favicon.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Food Menu/The Coffe</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+
+      <div class="headerbar">
+        <div class="account">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-house-chimney"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+              </li>
+            </a>
+            <div class="search" id="searchinput1">
+             <input type="search"> 
+             <i class="fa-solid fa-magnifying-glass srchicon"></i>
+            </div>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-user" id="user-mb"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="about.html">
+              <li>About Us</li>
+            </a>
+            <a href="#">
+              <li>Food Menu</li>
+            </a>
+            <a href="#" onclick="openBookingForm()">
+              <li>Book a Table</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark" id="hdcross"></i>
+      </div>
+      <div class="nav">
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About Us</li>
+          </a>
+          <a href="food-menu.html">
+            <li>Food Menu</li>
+          </a>
+          <a href="#" onclick="openBookingForm()">
+            <li>Book a Table</li>
+          </a>
+        </ul>
+      </div>
+      <div class="account">
+        <ul>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-house-chimney"></i>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+            </li>
+          </a>
+          <div class="search" id="searchinput2">
+            <input type="search">
+            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+          </div>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-user" id="user-lap"></i>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>  
+<!--Booking a table form -->
+
+<div id="bookTableForm">
+  <div class="booking-form">
+      <h2>Book a Table</h2>
+      <form action="#" method="post" id="form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required><br><br>
+
+
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required><br><br>
+
+          <input type="submit" value="Book Now" class="btn-class">
+          <input type="submit" value="Cancle" onclick="closeBookingForm()" class="btn-class" > 
+      </form>
+  </div>
+</div>
+
+
+<!--Code for the Food Menu-->
+
+<div class="food-menu">
+  <div class="container">
+    <h2>Food Menu</h2>
+    <div class="foods">
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item1.webp" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item2.webp" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item3.jpeg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item4.jpeg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item5.jpeg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item6.jpg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item7.webp" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item8.jpeg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item9.jpeg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item10.jpg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item11.jpg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="item">
+        <div>
+          <img src="./image/food-menu-item12.jpg" alt="">
+        </div>
+        <h4>Food Name</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, saepe!</p>
+        <p class="fav-price">$0.00</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+ 
+ <footer>
+  <div class="footer">
+    <div class="footer-1">
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="">
+      </div>
+      <div>
+        <address>
+          <p>Email:durgeshyadav9246@gmail.com</p>
+          <p>Youtube:Durgesh_yadav</p>
+          <p>The Coffe,<br>My street,New Delhi <br>India</p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-2">
+      <img src="./image/logo2.png" alt="">
+      <h2>Powered by <em>Team Name</em></h2>
+    </div>
+  </div>
+</footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+.aboutUs-container{
+  width: 100%;
+}
+
+.aboutUs-container .content{
+   width: 100%; 
+   display: flex;
+   flex-wrap: wrap-reverse;
+}
+
+.aboutUs-container .content .about{
+  width: 50%;
+  float: left;
+  margin-top: 70px;
+}
+
+.aboutUs-container .content .about h2{
+  color: brown;
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.aboutUs-container .content .about p{
+  color: black;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.aboutUs-container .content .img{
+  width: 50%;
+  float: right;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.aboutUs-container .content .img img{
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid burlywood;
+  box-shadow: 0px 8px 12px burlywood;
+}
+
+
+.Golden-Chef .content h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.Golden-Chef .chef{
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: transparent;
+}
+
+.Golden-Chef .chef .chef-img{
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 12px burlywood;
+  width: 220px;
+  padding: 15px;
+  padding-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Golden-Chef .chef .chef-img div{
+  height: 170px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.Golden-Chef .chef .chef-img img{
+  width: 150px;
+}
+
+.Golden-Chef .chef .chef-img h3{
+  font-size: 15px;
+  padding-top: 25px;
+  background-color: white;
+}
+
+.Golden-Chef .chef .chef-img p{
+  font-size: 8px;
+  background-color: white;
+}
+
+
+.our-story h2{
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+.our-story p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+
+/* Make the about us page responsive */
+@media only screen and (max-width:768px){
+
+  .aboutUs-container .content .img{
+    width: 100%;
+    float: none;
+    margin-top: 50px; 
+  }
+
+  .aboutUs-container .content .img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;   
+  }
+
+  .aboutUs-container .content .about{
+    width: 100%;
+    float: none;
+    margin-top: 50px;
+  }
+
+  .aboutUs-container .content .about h2{
+    font-size: 27px;
+    margin-left: 10px;
+  }
+  .aboutUs-container .content .about p{
+    font-size: 11px;
+    margin-left: 10px;
+  }
+
+  .Golden-Chef .content h2{
+    font-size: 25px;
+  }
+
+  .our-story h2{
+    font-size: 25px;
+  }
+
+  .our-story p{
+    font-size: 10px;
+  }
+}
